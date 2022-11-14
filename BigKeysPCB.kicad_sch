@@ -1867,6 +1867,22 @@
     (pin "1" (uuid a9535acc-cece-4e78-ac1e-1f92d0c7d49a))
   )
 
+  (symbol (lib_id "power:GND") (at 186.69 33.02 180) (unit 1)
+    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (uuid f978a9e3-d358-453b-a3d0-a4e6d5ba20c8)
+    (property "Reference" "#PWR?" (id 0) (at 186.69 26.67 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (id 1) (at 186.69 27.94 0))
+    (property "Footprint" "" (id 2) (at 186.69 33.02 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 186.69 33.02 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid d8e9f6d2-017d-4079-98bc-fa4b594c5281))
+  )
+
   (symbol (lib_id "Device:D_Small") (at 213.36 64.77 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid feea8d28-a953-4431-aff0-fff5880dfc55)
@@ -1929,6 +1945,9 @@
     )
     (path "/08493fb9-ccb6-4ebb-9e83-5a008d4da17c"
       (reference "#PWR0113") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/f978a9e3-d358-453b-a3d0-a4e6d5ba20c8"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/93252823-c104-4d29-80b4-3fb6d71f8564"
       (reference "C1") (unit 1) (value "22pF") (footprint "Capacitor_SMD:C_0805_2012Metric")
